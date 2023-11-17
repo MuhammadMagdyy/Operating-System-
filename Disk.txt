@@ -1,0 +1,15 @@
+Var 1
+Var 2
+Var 3
+2
+Finished
+7
+15
+29
+semWait userInput
+assign a input
+assign b input
+semSignal userInput
+semWait file
+writeFile a b
+semSignal file
